@@ -18,7 +18,7 @@ export default function Keranjang() {
     setCart(updated);
     localStorage.setItem("cart", JSON.stringify(updated));
   };
-
+<br />
   const removeItem = (index) => {
     const updated = [...cart];
     const removedItem = updated.splice(index, 1)[0];
