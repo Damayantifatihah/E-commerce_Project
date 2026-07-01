@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ceklist from "../../assets/img/ceklist.png";
+import ceklist from "../../assets/img/Ceklist.png";
 
 export default function CheckOut() {
   const navigate = useNavigate();
