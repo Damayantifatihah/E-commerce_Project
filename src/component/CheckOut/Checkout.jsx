@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ceklist from "../../assets/img/Ceklist.png";
+import Ceklist from "../../assets/img/Ceklist.png";
 
 export default function CheckOut() {
   const navigate = useNavigate();
@@ -119,7 +119,7 @@ export default function CheckOut() {
             <h2 className="text-lg font-bold text-[#003049] mb-4">
               Terimakasih Telah Membeli Produk Kami
             </h2>
-            <img src={ceklist} alt="Berhasil" className="w-16 h-16 mx-auto mb-4" />
+            <img src={Ceklist} alt="Berhasil" className="w-16 h-16 mx-auto mb-4" />
             <p className="text-sm text-gray-600 mb-4">
               Kami akan segera memproses pesananmu untuk dikirim dengan aman.
             </p>
